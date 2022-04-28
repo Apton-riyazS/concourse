@@ -1,0 +1,9 @@
+github-access-token:  
+number: 10
+repo_name: concourse
+remote: https://github.com/aswin-apton/jenkines-test.git 
+ssh-private-key: | 
+  -----BEGIN OPENSSH PRIVATE KEY-----
+         <keyhere>
+  -----END OPENSSH PRIVATE KEY-----
+ 

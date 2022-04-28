@@ -11,7 +11,7 @@ resources:
   #webhook_token: <WEBHOOK_TOKEN> 
   source:
     repository: concourse
-    access_token: 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
+    access_token: ((github-access-token))
     base_branch: master
 jobs:
 - name: test
