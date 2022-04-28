@@ -10,7 +10,7 @@ resources:
   source:
     email: ((docker-hub-email))
     username: ((docker-hub-username))
-    password: ((docker-hub-password))
+    password: ((docker-hub-token))
     repository: ((docker-hub-username))/test-repo
 
 jobs:
@@ -21,4 +21,4 @@ jobs:
   - get: test
   - put: hello-world-docker-image
     params:
-      build: riyazdocker667/test-repo
+      build: test/concourse/

@@ -4,7 +4,7 @@ repo_name: concourse
 remote: https://github.com/aswin-apton/jenkines-test.git 
 docker-hub-email: riyaz66745@gamil.com
 docker-hub-username: riyazdocker667
-docker-hub-password: Riyaz66745@1
+docker-hub-token: 9b6e5144-b5e4-4ecd-9d18-d541ab9397bf
 ssh-private-key: | 
   -----BEGIN OPENSSH PRIVATE KEY-----
          <keyhere>
