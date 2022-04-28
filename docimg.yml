@@ -18,7 +18,7 @@ jobs:
   public: true
   serial: true
   plan:
-  - get: tutorial
+  - get: test
   - put: hello-world-docker-image
     params:
       build: riyazdocker667/test-repo
