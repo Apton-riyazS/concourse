@@ -1,0 +1,24 @@
+resources:
+- name: test
+  type: git
+  source:
+    uri: https://github.com/Apton-riyazS/concourse.git
+    branch: master
+
+- name: hello-world-docker-image
+  type: docker-image
+  source:
+    email: ((docker-hub-email))
+    username: ((docker-hub-username))
+    password: ((docker-hub-password))
+    repository: ((docker-hub-username))/test-repo
+
+jobs:
+- name: publish
+  public: true
+  serial: true
+  plan:
+  - get: tutorial
+  - put: hello-world-docker-image
+    params:
+      build: riyazdocker667/test-repo

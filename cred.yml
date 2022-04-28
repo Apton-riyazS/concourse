@@ -6,4 +6,7 @@ ssh-private-key: |
   -----BEGIN OPENSSH PRIVATE KEY-----
          <keyhere>
   -----END OPENSSH PRIVATE KEY-----
- 
+
+docker-hub-email: riyaz66745@gamil.com
+docker-hub-username: riyazdocker667
+docker-hub-password: Riyaz66745@1
