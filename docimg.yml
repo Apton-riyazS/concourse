@@ -21,4 +21,4 @@ jobs:
   - get: test
   - put: hello-world-docker-image
     params:
-      build: test/concourse/
+      build: riyazdocker667/test-repo docker:first

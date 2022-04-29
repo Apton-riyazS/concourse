@@ -1,6 +1,5 @@
 FROM busybox
 
-ADD hello-world /bin/hello-world
-
-ENV NAME=world
-ENTRYPOINT ["/bin/hello-world"]
+RUN echo "I'm simple!"
+COPY ./stranger /stranger
+RUN cat /stranger
