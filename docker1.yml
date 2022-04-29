@@ -24,10 +24,10 @@ jobs:
       inputs:
         - name: concourse
       run:
-        path: bash
+        path: python
         args:
         - "-c"
         - |
           set -e
-          python jenkines-test/input.py 10
+          python concourse/input.py 10
          
