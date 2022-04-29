@@ -1,7 +1,8 @@
-import sys
+num1 = 1.5
+num2 = 6.3
 
-print('Enter the number', sys.argv)
-number = int(sys.argv[1])
+# Add two numbers
+sum = num1 + num2
 
-print('number Entered was:' , number)
-#repository: python, tag: "3.8.13-buster"
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))

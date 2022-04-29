@@ -25,9 +25,5 @@ jobs:
         - name: concourse
       run:
         path: python
-        args:
-        - "-c"
-        - |
-          set -e
-          python concourse/input.py 10
+        args: ["concourse/input.py"]
          
